@@ -17,18 +17,18 @@ setup(
     url="https://github.com/DarkWolf2244/LiteEvent",
     author="DarkWolf",
     author_email="darkwolfx2244@gmail.com",
-    license="MIT",
+    license="GNU GPLv3",
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        "License :: GNU GPLv3",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
     packages=["reader"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=[],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            
         ]
     },
 )
