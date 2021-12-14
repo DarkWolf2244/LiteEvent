@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+liteevent.egg-info/PKG-INFO
+liteevent.egg-info/SOURCES.txt
+liteevent.egg-info/dependency_links.txt
+liteevent.egg-info/entry_points.txt
+liteevent.egg-info/top_level.txt

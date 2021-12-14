@@ -1,13 +1,10 @@
 import pathlib
 from setuptools import setup
 
-# The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
-# The text of the README file
 README = (HERE / "README.md").read_text()
 
-# This call to setup() does all the work
 setup(
     name="liteevent",
     version="1.0.0",
@@ -17,13 +14,13 @@ setup(
     url="https://github.com/DarkWolf2244/LiteEvent",
     author="DarkWolf",
     author_email="darkwolfx2244@gmail.com",
-    license="GNU GPLv3",
+    license="GNU General Public License v3.0",
     classifiers=[
-        "License :: GNU GPLv3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["reader"],
+    packages=[],
     include_package_data=True,
     install_requires=[],
     entry_points={
